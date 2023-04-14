@@ -1,6 +1,8 @@
-# Dockerfile for creating test environment for SSH/Python/Alpine
+# Dockerfile for creating test environment with SSH/Python/Alpine
 
 This is a Dockerfile that creates an Alpine-based image with OpenSSH and Python3 installed. It also configures the SSH server to allow root login with an SSH key, and disables password authentication.
+
+It is often necessary to create a test instance of the server to test various scripts and utilities, such as Ansible. To do this quickly and without using virtual machines or cloud servers - you can use this Dockerfile.
 
 ## Prerequisites
 
